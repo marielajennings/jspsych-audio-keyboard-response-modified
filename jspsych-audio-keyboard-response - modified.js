@@ -112,31 +112,11 @@ if(context !== null){
 
 }
 
-
-console.log('blah')
-
-
   } else {
 
         audio.addEventListener('ended', end_trial);
       }
   
-
-
-  // else if (trial.trial_ends_after_audio_and_time!=0) {
-
-  //       if(context !== null){
-        
-  //     setTimeout(function() {
-  //       end_trial()
-  //       }, trial.trial_ends_after_audio_and_time) }
-
-
-
-  
-
-
-
     // show prompt if there is one
     if (trial.prompt !== null) {
       display_element.innerHTML = trial.prompt;
